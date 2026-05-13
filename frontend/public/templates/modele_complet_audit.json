@@ -1,0 +1,115 @@
+{
+  "_instruction": "REMPLISSEZ LES VALEURS CI-DESSOUS. Remplacez les textes entre --- par vos informations et remplacez les 0 par vos chiffres.",
+  "company_info": {
+    "name": "--- NOM DE L ENTREPRISE ---",
+    "legal_form": "--- FORME JURIDIQUE (ex: SARL, SA) ---",
+    "registration_number": "--- NUMERO SIRET / RC ---",
+    "address": "--- ADRESSE COMPLETE ---",
+    "country": "--- PAYS ---",
+    "industry": "--- SECTEUR D ACTIVITE ---",
+    "fiscal_year": "--- ANNEE FISCALE (ex: 2024) ---"
+  },
+
+  "financial_statements": {
+    "income_statement": {
+      "revenue": 0,
+      "monthly_revenue": {
+        "jan": 0,
+        "feb": 0,
+        "mar": 0,
+        "apr": 0,
+        "may": 0,
+        "jun": 0,
+        "jul": 0,
+        "aug": 0,
+        "sep": 0,
+        "oct": 0,
+        "nov": 0,
+        "dec": 0
+      },
+      "cogs": 0,
+      "staff_costs": 0,
+      "operating_expenses": 0,
+      "marketing": 0,
+      "depreciation": 0,
+      "net_income": 0
+    },
+
+    "balance_sheet": {
+      "assets": {
+        "fixed_assets": 0,
+        "receivables": 0,
+        "inventory": 0,
+        "cash": 0
+      },
+      "liabilities": {
+        "equity": 0,
+        "reserves": 0,
+        "debts_suppliers": 0,
+        "tax_debts": 0,
+        "long_term_debt": {
+          "amount": 0,
+          "interest_rate": 0.0,
+          "guarantee": "--- OUI/NON ---",
+          "bank": "--- NOM DE LA BANQUE ---"
+        }
+      }
+    },
+
+    "cash_flow": {
+      "operating": 0,
+      "investing": 0,
+      "financing": 0,
+      "exceptional_outflow": 0,
+      "final_cash": 0
+    }
+  },
+
+  "transactions": {
+    "exceptional": [
+      {
+        "id": "TRX-001",
+        "amount": 0,
+        "date": "JJ/MM/AAAA",
+        "type": "--- TYPE (ex: Virement Offshore, Amende) ---",
+        "destination": "--- PAYS OU COMPTE ---",
+        "beneficiary": "--- NOM DU BENEFICIAIRE ---",
+        "justification": "--- RAISON ---",
+        "approved": "--- OUI/NON ---"
+      }
+    ]
+  },
+
+  "accounting_entries": {
+    "accounts": [
+      {
+        "account_number": "--- COMPTE (ex: 411000) ---",
+        "name": "--- INTITULE ---",
+        "balance": 0,
+        "normal_balance": "--- DEBITEUR / CREDITEUR ---",
+        "status": "--- OK / SUSPECT ---"
+      }
+    ]
+  },
+
+  "ratios": {
+    "liquidity_ratio": 0.0,
+    "debt_ratio": 0.0,
+    "net_margin": 0.0,
+    "interest_coverage": 0.0
+  },
+
+  "audit_flags": {
+    "suspected_fraud": "--- OUI/NON ---",
+    "insolvency_risk": "--- OUI/NON ---",
+    "offshore_transactions": "--- OUI/NON ---",
+    "accounting_inconsistencies": "--- OUI/NON ---"
+  },
+
+  "supporting_documents": {
+    "invoices": "--- FOURNIS / MANQUANTS ---",
+    "contracts": "--- FOURNIS / MANQUANTS ---",
+    "loan_documents": "--- FOURNIS / MANQUANTS ---",
+    "bank_statements": "--- FOURNIS / MANQUANTS ---"
+  }
+}

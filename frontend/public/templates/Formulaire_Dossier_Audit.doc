@@ -1,0 +1,246 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<style>
+  body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    color: #333333;
+    line-height: 1.5;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 3px solid #1B365D;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  h1 { 
+    color: #1B365D; 
+    font-size: 24pt;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .subtitle {
+    color: #7F8C8D;
+    font-size: 12pt;
+    font-style: italic;
+  }
+  h2 { 
+    color: #1B365D; 
+    font-size: 14pt; 
+    margin-top: 35px; 
+    margin-bottom: 15px;
+    background-color: #F1F4F9;
+    padding: 10px 15px;
+    border-left: 6px solid #2980B9;
+    text-transform: uppercase;
+  }
+  h3 { 
+    color: #16A085; 
+    font-size: 12pt; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #E0E0E0;
+    padding-bottom: 5px;
+  }
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+  }
+  th, td { 
+    border: 1px solid #CBD5E1; 
+    padding: 10px 12px; 
+    text-align: left; 
+    vertical-align: top;
+  }
+  th { 
+    background-color: #2C3E50; 
+    color: #FFFFFF;
+    font-weight: 600;
+  }
+  .field-name { 
+    font-weight: 600; 
+    width: 45%; 
+    background-color: #F8FAFC;
+    color: #334155;
+  }
+  .field-input { 
+    color: #94A3B8; 
+    width: 55%;
+  }
+  .dot-line {
+    color: #CBD5E1;
+  }
+  .notice {
+    font-size: 10pt;
+    color: #B91C1C;
+    margin-bottom: 25px;
+    border: 1px solid #FECACA;
+    padding: 12px;
+    background-color: #FEF2F2;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>DOSSIER D'AUDIT FINANCIER</h1>
+  <div class="subtitle">FORMULAIRE DE RENSEIGNEMENTS STANDARDISÉ</div>
+</div>
+
+<div class="notice">
+  <strong>IMPORTANT :</strong> Veuillez remplir ce document de manière lisible et exhaustive. Ces informations permettent de constituer la base de l'analyse comptable et financière.
+</div>
+
+<h2>1. INFORMATIONS GÉNÉRALES</h2>
+<table>
+  <tr><td class="field-name">Nom de l'entreprise</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Forme juridique</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Numéro d'immatriculation (SIRET/RC)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Adresse complète</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Pays</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Secteur d'activité</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Année Fiscale concernée</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+</table>
+
+<h2>2. ÉTATS FINANCIERS</h2>
+
+<h3>A. Compte de Résultat</h3>
+<table>
+  <tr><td class="field-name">Chiffre d'affaires annuel (Revenue)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Coût des ventes (COGS)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Charges de personnel (Staff costs)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Dépenses d'exploitation (Operating expenses)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Dépenses marketing</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Amortissements (Depreciation)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Résultat net (Net income)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+</table>
+
+<h3>B. Revenus Mensuels</h3>
+<table>
+  <tr><th>Mois</th><th>Montant</th><th>Mois</th><th>Montant</th></tr>
+  <tr><td>Janvier</td><td class="field-input"><span class="dot-line">.........................</span></td><td>Juillet</td><td class="field-input"><span class="dot-line">.........................</span></td></tr>
+  <tr><td>Février</td><td class="field-input"><span class="dot-line">.........................</span></td><td>Août</td><td class="field-input"><span class="dot-line">.........................</span></td></tr>
+  <tr><td>Mars</td><td class="field-input"><span class="dot-line">.........................</span></td><td>Septembre</td><td class="field-input"><span class="dot-line">.........................</span></td></tr>
+  <tr><td>Avril</td><td class="field-input"><span class="dot-line">.........................</span></td><td>Octobre</td><td class="field-input"><span class="dot-line">.........................</span></td></tr>
+  <tr><td>Mai</td><td class="field-input"><span class="dot-line">.........................</span></td><td>Novembre</td><td class="field-input"><span class="dot-line">.........................</span></td></tr>
+  <tr><td>Juin</td><td class="field-input"><span class="dot-line">.........................</span></td><td>Décembre</td><td class="field-input"><span class="dot-line">.........................</span></td></tr>
+</table>
+
+<h3>C. Bilan</h3>
+<table>
+  <tr><th colspan="2">ACTIFS (Assets)</th><th colspan="2">PASSIFS (Liabilities)</th></tr>
+  <tr><td class="field-name">Immobilisations (Fixed assets)</td><td class="field-input"><span class="dot-line">...................</span></td><td class="field-name">Capitaux propres (Equity)</td><td class="field-input"><span class="dot-line">...................</span></td></tr>
+  <tr><td class="field-name">Créances (Receivables)</td><td class="field-input"><span class="dot-line">...................</span></td><td class="field-name">Réserves (Reserves)</td><td class="field-input"><span class="dot-line">...................</span></td></tr>
+  <tr><td class="field-name">Stocks (Inventory)</td><td class="field-input"><span class="dot-line">...................</span></td><td class="field-name">Dettes fournisseurs</td><td class="field-input"><span class="dot-line">...................</span></td></tr>
+  <tr><td class="field-name">Trésorerie (Cash)</td><td class="field-input"><span class="dot-line">...................</span></td><td class="field-name">Dettes fiscales</td><td class="field-input"><span class="dot-line">...................</span></td></tr>
+</table>
+
+<h3>D. Détail de la Dette Long Terme</h3>
+<table>
+  <tr><td class="field-name">Montant de la dette</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Taux d'intérêt</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Garantie</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Banque / Établissement</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+</table>
+
+<h3>E. Flux de Trésorerie (Cash Flow)</h3>
+<table>
+  <tr><td class="field-name">Flux d'exploitation (Operating)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Flux d'investissement (Investing)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Flux de financement (Financing)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Sorties exceptionnelles</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Trésorerie finale (Final cash)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+</table>
+
+<h2>3. TRANSACTIONS EXCEPTIONNELLES</h2>
+<table>
+  <tr><th>ID</th><th>Montant</th><th>Date</th><th>Type</th><th>Destination</th><th>Bénéficiaire</th><th>Justification</th><th>Approuvé</th></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+</table>
+
+<h2>4. COMPTES CLÉS ET ÉCRITURES</h2>
+<table>
+  <tr><th>N° Compte</th><th>Intitulé</th><th>Solde</th><th>Sens (Débiteur/Créditeur)</th><th>Statut</th></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+</table>
+
+<h2>5. INDICATEURS & RATIOS</h2>
+<table>
+  <tr><td class="field-name">Ratio de liquidité (Liquidity ratio)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Ratio d'endettement (Debt ratio)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Marge nette (Net margin)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Couverture des intérêts (Interest coverage)</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+</table>
+
+<h2>6. ALERTES D'AUDIT (Audit Flags)</h2>
+<table>
+  <tr><td class="field-name">Suspicion de fraude ?</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Risque d'insolvabilité ?</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Transactions Offshore ?</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+  <tr><td class="field-name">Incohérences comptables ?</td><td class="field-input"><span class="dot-line">.......................................................................</span></td></tr>
+</table>
+
+<h2>7. DOCUMENTS JUSTIFICATIFS FOURNIS (Pièces Jointes)</h2>
+<table>
+  <tr><td class="field-name">Factures justificatives fournies ?</td><td class="field-input"><span class="dot-line">[   ] Oui &nbsp;&nbsp;&nbsp; [   ] Non</span></td></tr>
+  <tr><td class="field-name">Contrats fournis ?</td><td class="field-input"><span class="dot-line">[   ] Oui &nbsp;&nbsp;&nbsp; [   ] Non</span></td></tr>
+  <tr><td class="field-name">Documents liés aux emprunts fournis ?</td><td class="field-input"><span class="dot-line">[   ] Oui &nbsp;&nbsp;&nbsp; [   ] Non</span></td></tr>
+  <tr><td class="field-name">Relevés bancaires fournis ?</td><td class="field-input"><span class="dot-line">[   ] Oui &nbsp;&nbsp;&nbsp; [   ] Non</span></td></tr>
+</table>
+
+<h2>8. INFORMATIONS DE CONTRÔLE</h2>
+<table>
+  <tr>
+    <td class="field-name">Source des données :</td>
+    <td class="field-input"><span class="dot-line">.......................................................................</span></td>
+  </tr>
+  <tr>
+    <td class="field-name">Responsable financier :</td>
+    <td class="field-input"><span class="dot-line">.......................................................................</span></td>
+  </tr>
+  <tr>
+    <td class="field-name">Date de validation :</td>
+    <td class="field-input"><span class="dot-line">.......................................................................</span></td>
+  </tr>
+</table>
+
+<h2>9. BANQUES & TRÉSORERIE DÉTAILLÉE</h2>
+<table>
+  <tr><th>Banque</th><th>Pays</th><th>Solde</th></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+</table>
+
+<h2>10. ENGAGEMENTS HORS BILAN</h2>
+<table>
+  <tr><th>Type</th><th>Montant</th><th>Description</th></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+  <tr><td class="dot-line">...</td><td class="dot-line">...</td><td class="dot-line">...</td></tr>
+</table>
+
+<h2>11. COMMENTAIRES & JUSTIFICATIONS</h2>
+<table>
+  <tr>
+    <td class="field-name" style="width: 100%; border-bottom: none;">Commentaires généraux :</td>
+  </tr>
+  <tr>
+    <td class="field-input" style="border-top: none; height: 60px;"><span class="dot-line">...............................................................................................................................................</span><br><span class="dot-line">...............................................................................................................................................</span></td>
+  </tr>
+  <tr>
+    <td class="field-name" style="width: 100%; border-bottom: none;">Explication des anomalies :</td>
+  </tr>
+  <tr>
+    <td class="field-input" style="border-top: none; height: 60px;"><span class="dot-line">...............................................................................................................................................</span><br><span class="dot-line">...............................................................................................................................................</span></td>
+  </tr>
+</table>
+
+</body>
+</html>

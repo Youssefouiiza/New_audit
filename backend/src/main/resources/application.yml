@@ -1,0 +1,87 @@
+spring:
+  application:
+    name: audit-platform
+  datasource:
+    url: jdbc:postgresql://localhost:5433/audit_platform
+    username: audit
+    password: "audit_secret"
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:change-me-use-at-least-256-bits-for-hs256-secret-key-change-me}
+    access-token-minutes: 60
+    refresh-token-days: 7
+  cors:
+    allowed-origins: "http://localhost:3000"
+  storage:
+    local-path: ${user.home}/audit-platform-uploads
+  minio:
+    endpoint: http://localhost:9000
+    access-key: minioadmin
+    secret-key: minioadmin
+    buckets:
+      documents: documents
+      reports: reports
+      chat-files: chat-files
+  ai:
+    groq:
+      api-key: ${GROQ_API_KEY:}
+      base-url: https://api.groq.com/openai/v1
+      model: llama-3.3-70b-versatile
+    mistral:
+      api-key: ${MISTRAL_API_KEY:}
+      base-url: https://api.mistral.ai/v1
+      model: mistral-small-latest
+    openai:
+      api-key: ${OPENAI_API_KEY:}
+      base-url: https://api.openai.com/v1
+      model: gpt-4o-mini
+  client-doc-quota-mb: 500
+  rate-limit:
+    auth-per-minute: 10
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  endpoint:
+    health:
+      show-details: when_authorized
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} [%thread] %-5level [%X{correlationId}] %logger{36} - %msg%n"

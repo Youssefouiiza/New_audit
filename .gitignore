@@ -1,0 +1,56 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Node.js
+node_modules/
+dist/
+.next/
+out/
+build/
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+.eclipse/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python RAG service
+audit_rag_maroc/venv/
+audit_rag_maroc/__pycache__/
+audit_rag_maroc/*.pyc
+audit_rag_maroc/vector_db/
+audit_rag_maroc/reports/
+audit_rag_maroc/.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Uploads (données locales)
+audit-platform-uploads/
+
+# Docker volumes
+postgres_data/
+minio_data/

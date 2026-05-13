@@ -1,0 +1,66 @@
+================================================================
+DOSSIER D'AUDIT FINANCIER - SOCIÉTÉ EXAMPLE SARL
+================================================================
+
+Date de préparation : 09 Avril 2026
+Exercice comptable   : 2025
+
+INFORMATIONS GÉNÉRALES
+----------------------
+Raison sociale      : Example SARL
+Forme juridique     : SARL (Société à Responsabilité Limitée)
+Capital social      : 50 000 €
+SIRET               : 123 456 789 00012
+Secteur d'activité  : Commerce de détail
+
+DONNÉES FINANCIÈRES CLÉS
+--------------------------
+Chiffre d'affaires (CA) 2025 : 1 250 000 €
+Chiffre d'affaires (CA) 2024 : 980 000 €
+Variation CA                 : +27,6 %
+
+Charges d'exploitation       : 980 000 €
+Résultat d'exploitation      : 270 000 €
+Résultat net                 : 195 000 €
+
+BILAN SIMPLIFIÉ
+---------------
+ACTIF
+  Immobilisations nettes      : 320 000 €
+  Stocks                      : 145 000 €
+  Créances clients            : 210 000 €
+  Trésorerie                  : 87 000 €
+  TOTAL ACTIF                 : 762 000 €
+
+PASSIF
+  Capitaux propres            : 380 000 €
+  Dettes financières          : 210 000 €
+  Dettes fournisseurs         : 172 000 €
+  TOTAL PASSIF                : 762 000 €
+
+RATIOS FINANCIERS
+-----------------
+Ratio de liquidité générale  : 1.8 (sain > 1)
+Ratio d'endettement          : 55% (acceptable)
+Marge nette                  : 15.6%
+Rentabilité des capitaux     : 51.3%
+
+OBJECTIFS DE L'AUDIT
+---------------------
+1. Vérification de la conformité comptable
+2. Analyse des risques fiscaux
+3. Contrôle des flux de trésorerie
+4. Évaluation du contrôle interne
+5. Détection d'éventuelles anomalies financières
+
+DOCUMENTS JOINTS
+----------------
+- Bilan comptable 2025 (certifié expert-comptable)
+- Compte de résultats 2025
+- Grand-livre des comptes
+- Relevés bancaires (janvier - décembre 2025)
+- Déclarations TVA trimestrielles
+
+================================================================
+Signature du responsable : M. Jean Dupont (Directeur Général)
+================================================================

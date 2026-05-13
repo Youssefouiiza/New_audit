@@ -1,0 +1,41 @@
+# ============================================================
+# RAG Audit Juridique Marocain - Dépendances
+# ============================================================
+
+# --- LangChain (orchestration RAG) ---
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.38
+
+# --- Base vectorielle ---
+chromadb==0.5.5
+
+# --- Embeddings (modèle gratuit local) ---
+sentence-transformers==3.0.1
+
+# --- LLM local via Ollama ---
+ollama==0.3.1
+
+# --- Chargement de documents ---
+pypdf==4.3.1
+unstructured==0.15.0
+
+# --- Interface utilisateur ---
+streamlit==1.38.0
+
+# --- Utilitaires ---
+python-dotenv==1.0.1
+tqdm==4.66.5
+colorama==0.4.6
+tabulate==0.9.0
+
+# --- Traitement de texte ---
+tiktoken==0.7.0
+
+# --- API REST (nouveau service RAG) ---
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+
+# --- Génération de rapports Word ---
+python-docx==1.1.2

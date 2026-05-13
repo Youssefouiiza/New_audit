@@ -1,0 +1,17 @@
+Date;Code Journal;N° Compte;Intitulé Compte;N° Pièce;Libellé de l'écriture;Débit;Crédit
+01/01/2025;RAN;101000;Capital social;RAN001;Reprise Capital social;0.00;100000.00
+01/01/2025;RAN;512000;Banque;RAN001;Reprise Solde Banque;45000.00;0.00
+05/01/2025;ACH;601000;Achats stockés;ACH012;Facture Fournisseur ALPHA;5000.00;0.00
+05/01/2025;ACH;445660;TVA déductible;ACH012;Facture Fournisseur ALPHA;1000.00;0.00
+05/01/2025;ACH;401000;Fournisseurs;ACH012;Facture Fournisseur ALPHA;0.00;6000.00
+10/01/2025;VTE;411000;Clients;VTE045;Facture Client BETA;12000.00;0.00
+10/01/2025;VTE;701000;Ventes produits finis;VTE045;Facture Client BETA;0.00;10000.00
+10/01/2025;VTE;445710;TVA collectée;VTE045;Facture Client BETA;0.00;2000.00
+15/01/2025;BQE;401000;Fournisseurs;BQ015;Virement Fournisseur ALPHA;6000.00;0.00
+15/01/2025;BQE;512000;Banque;BQ015;Virement Fournisseur ALPHA;0.00;6000.00
+20/01/2025;BQE;512000;Banque;BQ020;Encaissement Client BETA;12000.00;0.00
+20/01/2025;BQE;411000;Clients;BQ020;Encaissement Client BETA;0.00;12000.00
+31/01/2025;OD;641100;Salaires;PAIE01;Paie de Janvier;10000.00;0.00
+31/01/2025;OD;645100;Cotisations URSSAF;PAIE01;Charges sociales Janvier;4000.00;0.00
+31/01/2025;OD;421000;Personnel - Rémunérations;PAIE01;Paie de Janvier nette;0.00;7500.00
+31/01/2025;OD;431000;Sécurité sociale;PAIE01;Dettes sociales Janvier;0.00;6500.00
